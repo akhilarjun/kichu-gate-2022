@@ -1,0 +1,68 @@
+.container {
+  padding: 40px 50px;
+}
+
+.label {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+._wrapper {
+  margin-bottom: 20px;
+}
+
+.topic select {
+  width: 100%;
+  max-width: 700px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add_topic {
+  margin-top: 15px;
+  display: flex;
+  max-width: 700px;
+}
+
+.add_topic input {
+  flex: 1 100%;
+}
+
+.add_topic button {
+  flex: none;
+  margin: 0 0 0 10px !important;
+}
+
+.question textarea,
+.solution textarea,
+.option input,
+.add_topic input {
+  resize: none;
+  width: 100%;
+  max-width: 700px;
+  height: 100px;
+  outline: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.option input,
+.add_topic input {
+  height: auto;
+  font-size: 20px;
+}
+
+.btn button {
+  margin: 10px 10px 10px 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #616161;
+  font-weight: 700;
+  color: #edde12;
+  cursor: pointer;
+  font-size: 20px;
+}

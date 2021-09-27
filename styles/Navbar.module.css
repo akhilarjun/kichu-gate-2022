@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  padding: 50px;
+}
+
+.title {
+  flex: 1 100%;
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav_links {
+  flex: 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.link {
+  flex: none;
+  margin-right: 25px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.link .active {
+  text-decoration: underline;
+  color: #edde12;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    display: block;
+  }
+  .title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .nav_links {
+    flex-direction: row;
+  }
+  .link {
+    font-size: 20px;
+    flex: 1 100%;
+    margin-right: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
